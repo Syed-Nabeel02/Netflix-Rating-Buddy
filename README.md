@@ -39,7 +39,8 @@ Netflix Rating Buddy is a Chrome extension that overlays **real-time IMDb rating
 4. Select the **project folder** (the one containing `manifest.json`).
 
 ## 📸 Screenshots  
-<img width="2532" height="830" alt="Screenshot 2025-09-21 195640" src="https://github.com/user-attachments/assets/91ea98d9-3b65-46e9-ac22-e84202e77df0" />
+<img width="1686" height="830" alt="Screenshot 2025-09-21 195640" src="https://github.com/user-attachments/assets/9d2654e2-7c1d-454a-aa2a-f19af53b9abb" />
+
 
 
 
