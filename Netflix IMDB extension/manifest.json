@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix Buddy",
+  "short_name": "Netflix Buddy",
+  "version": "0.0.1",
+  "author": "Referenced with work of Pankaj Tanwar",
+  "description": "Get instant IMDb ratings while browsing Netflix",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://*.netflix.com/*",
+    "https://*.primevideo.com/*",
+    "https://api.imdbapi.dev/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.netflix.com/*",
+        "https://*.primevideo.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
